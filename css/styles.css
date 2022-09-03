@@ -236,7 +236,7 @@ h3 {
       rgba(47, 48, 58, 0.4) 0%,
       rgba(47, 48, 58, 0.4) 100%
     ),
-    url("images/Img.jpg");
+    url("../images/Img.jpg");
   background-size: auto 100%, auto 100%;
 }
 
@@ -446,6 +446,13 @@ h3 {
   padding: 0;
   margin: 0;
 }
+
+.projects-list-images:hover,
+.projects-list-images:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .projects-list > li {
   background-color: var(--white-color);
 }
@@ -453,18 +460,19 @@ h3 {
 .projects-list-figcaption {
   font-weight: 700;
   font-size: 18px;
-  line-height: 0.5;
+  line-height: 200%;
   border-bottom: 1px solid #eee;
   border-right: 1px solid #eee;
   border-left: 1px solid #eee;
-  padding: 20px 0 4px 20px;
+  margin: 20px 0 0 20px;
 }
 
 .projects-list-figcaption-par {
   color: var(--grey-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.53;
+  line-height: 188%;
+  margin: 4px 0 20px 0;
 }
 
 /* icons styles */
